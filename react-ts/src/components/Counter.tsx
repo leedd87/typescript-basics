@@ -25,7 +25,7 @@ export const Counter = () => {
             >+2
             </button>
             <button
-                className="btn btn-outline-primary mt-2 ms-2"
+                className="btn btn-outline-danger mt-2 ms-2"
                 onClick={() => setCounter(0)}
             >Reset
             </button>
