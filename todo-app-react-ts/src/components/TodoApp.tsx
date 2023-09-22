@@ -1,4 +1,5 @@
 import { TodoProvider } from "../context/TodoProvider"
+import { TodoList } from "./TodoList"
 
 
 export const TodoApp = () => {
@@ -6,11 +7,7 @@ export const TodoApp = () => {
         <TodoProvider>
             <h1>TODO APP</h1>
             <hr />
-            <ul>
-                <li>TODO</li>
-                <li>TODO</li>
-                <li>TODO</li>
-            </ul>
+            <TodoList />
         </TodoProvider>
     )
 }
